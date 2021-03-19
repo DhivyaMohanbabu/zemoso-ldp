@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65aaff87-31cb-4b7b-85a9-86550368a117" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../ums_with_react/ums_react/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../ums_with_react/ums_react/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ums_with_react/ums_react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../../ums_with_react/ums_react/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ums_with_react/ums_react/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/components/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/components/PostList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ums_with_react/ums_react/src/tests/App.test.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1efhRqBMSAtBSawP5hvUteqjjek" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UmsApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.zemoso.ums.UmsApplication" />
+      <module name="ums_without_auth" />
+      <selectedOptions>
+        <option name="before.launch.openToolWindow" />
+        <option name="commandLineParameters" />
+        <option name="environmentVariables" />
+        <option name="jrePath" />
+        <option name="mainClass" />
+        <option name="workingDirectory" />
+      </selectedOptions>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65aaff87-31cb-4b7b-85a9-86550368a117" name="Default Changelist" comment="" />
+      <created>1594718552561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594718552561</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="178" width="1084" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595918571592">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="418" y="178" width="1084" height="788" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.988@0.27.1920.988" timestamp="1595918571592" />
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser" timestamp="1594794438510">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="70" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1594794438510" />
+    <state x="466" y="233" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594788010769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="466" y="233" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1594788010769" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594806642487">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1594806642487" />
+    <state width="432" height="438" key="DebuggerActiveHint" timestamp="1594784890050">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="432" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1594784890050" />
+    <state x="800" y="289" width="309" height="488" key="EnvironmentVariablesDialog" timestamp="1595916615109">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="800" y="289" width="309" height="488" key="EnvironmentVariablesDialog/0.27.1920.988@0.27.1920.988" timestamp="1595916615109" />
+    <state x="651" y="189" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595918527851">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595828911721" />
+    <state x="651" y="189" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.988@0.27.1920.988" timestamp="1595918527851" />
+    <state width="1874" height="518" key="GridCell.Tab.0.bottom" timestamp="1595925844918">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1323" height="458" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595830763475" />
+    <state width="1874" height="518" key="GridCell.Tab.0.bottom/0.27.1920.988@0.27.1920.988" timestamp="1595925844918" />
+    <state width="1874" height="518" key="GridCell.Tab.0.center" timestamp="1595925844918">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1323" height="458" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595830763475" />
+    <state width="1874" height="518" key="GridCell.Tab.0.center/0.27.1920.988@0.27.1920.988" timestamp="1595925844918" />
+    <state width="1874" height="518" key="GridCell.Tab.0.left" timestamp="1595925844918">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1323" height="458" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595830763475" />
+    <state width="1874" height="518" key="GridCell.Tab.0.left/0.27.1920.988@0.27.1920.988" timestamp="1595925844918" />
+    <state width="1874" height="518" key="GridCell.Tab.0.right" timestamp="1595925844918">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state width="1323" height="458" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595830763475" />
+    <state width="1874" height="518" key="GridCell.Tab.0.right/0.27.1920.988@0.27.1920.988" timestamp="1595925844918" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1594802720351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1594802720351" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1594802720351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1594802720351" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1594802720351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1594802720351" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1594802720351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1594802720351" />
+    <state x="543" y="266" width="824" height="508" key="IDE.errors.dialog" timestamp="1595916506582">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="543" y="266" width="824" height="508" key="IDE.errors.dialog/0.27.1920.988@0.27.1920.988" timestamp="1595916506582" />
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1594799519104">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="19" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1594799519104" />
+    <state x="259" y="39" key="SettingsEditor" timestamp="1595918580295">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594806798406" />
+    <state x="259" y="39" key="SettingsEditor/0.27.1920.988@0.27.1920.988" timestamp="1595918580295" />
+    <state x="459" y="122" key="refactoring.ChangeSignatureDialog" timestamp="1595829692658">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="459" y="122" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1595829692658" />
+    <state x="624" y="237" width="672" height="677" key="run.anything.popup" timestamp="1595918590885">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="624" y="237" width="672" height="677" key="run.anything.popup/0.27.1920.988@0.27.1920.988" timestamp="1595918590885" />
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1595919620764">
+      <screen x="0" y="27" width="1920" height="988" />
+    </state>
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup/0.27.1920.988@0.27.1920.988" timestamp="1595919620764" />
+  </component>
+</project>
