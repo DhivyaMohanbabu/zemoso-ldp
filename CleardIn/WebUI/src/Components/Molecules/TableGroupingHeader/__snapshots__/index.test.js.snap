@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeader match tableHeader snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="makeStyles-root-1"
+      >
+        <div
+          class="makeStyles-label-2"
+        >
+          <label
+            class="makeStyles-text-3"
+          >
+            Group
+          </label>
+          <div>
+            <div
+              class="MuiChip-root makeStyles-donottrust-7 makeStyles-chipFont-9"
+              data-testid="chip"
+            >
+              <span
+                class="MuiChip-label"
+              >
+                Do not trust
+              </span>
+            </div>
+          </div>
+        </div>
+        <p
+          class="MuiTypography-root makeStyles-count-4 MuiTypography-body1"
+          data-testid="count"
+        >
+          Count Count 5
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="makeStyles-root-1"
+    >
+      <div
+        class="makeStyles-label-2"
+      >
+        <label
+          class="makeStyles-text-3"
+        >
+          Group
+        </label>
+        <div>
+          <div
+            class="MuiChip-root makeStyles-donottrust-7 makeStyles-chipFont-9"
+            data-testid="chip"
+          >
+            <span
+              class="MuiChip-label"
+            >
+              Do not trust
+            </span>
+          </div>
+        </div>
+      </div>
+      <p
+        class="MuiTypography-root makeStyles-count-4 MuiTypography-body1"
+        data-testid="count"
+      >
+        Count Count 5
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

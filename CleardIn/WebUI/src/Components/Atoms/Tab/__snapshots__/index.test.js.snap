@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders active Tab correctly 1`] = `
+<div>
+  <div
+    class="makeStyles-tabSpan-3 makeStyles-currentTab-4"
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+    >
+      top 10
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders inactive Tab correctly 1`] = `
+<div>
+  <div
+    class="makeStyles-tabSpan-1 "
+  >
+    <p
+      class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+    >
+      top 10
+    </p>
+  </div>
+</div>
+`;

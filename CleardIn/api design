@@ -1,0 +1,402 @@
+openapi: 3.0.0
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/z5378/clearedIn/1.0.0
+info:
+  description: This application manages file sharing and collaboration websites securely
+  version: "1.0.0"
+  title: ClearedIn Application
+  contact:
+    email: you@your-company.com
+paths:
+  /collaborations:
+    get:
+      tags:
+        - Collaboration platforms
+      summary: get collaboration platforms
+      operationId: getcollaborators
+      description: |
+        Retrieves the list of collaboration platforms
+      responses:
+        '200':
+          description: retrieves all the collaboration platforms
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Collaborations'
+        '400':
+          description: Unauthorized
+  /departments:
+    get:
+      tags:
+        - Departments
+      summary: get all departments
+      operationId: getDepartments
+      parameters:
+        - name: collaboration_id
+          in: query
+          description: Associated collaborator ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+      description: |
+        By passing in the appropriate options, you can get the list of departments
+      responses:
+        '200':
+          description: retrieves all the departments
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Departments'
+        '401':
+          description: Unauthorized
+        '400':
+          description: Invalid request  
+    post:
+      tags:
+        - Departments
+      summary: Add a new department
+      operationId: addDepartment
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                collaboration_id:
+                  type: string
+                  format: uuid
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Departments'
+        '400':
+          description: Bad Request. Invalid Input
+        '401':
+          description: Unauthorized
+  /trustgroups:
+    get:
+      tags:
+        - Trustgroups
+      summary: get all trustgroups
+      operationId: getTrustgroup
+      parameters:
+        - name: department_id
+          in: query
+          description: Associated department ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: collaboration_id
+          in: query
+          description: Associated collaborator ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+      description: |
+        By passing in the appropriate options, you can get the list of trustgroups
+      responses:
+        '200':
+          description: retrieves all the trust groups
+          content:
+            application/json:
+              schema:
+                  $ref: '#/components/schemas/Trustgroups'
+        '400':
+          description: Invalid request
+    post:
+      tags:
+        - Trustgroups
+      summary: Add a new trustgroup
+      operationId: addTrustgroup
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                collaboration_id:
+                  type: string
+                  format: uuid
+                department_id:
+                  type: string
+                  format: uuid
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Trustgroups'
+        '400':
+          description: Bad Request. Invalid Input
+        '401':
+          description: Unauthorized
+  /permissions:
+    get:
+      tags:
+        - Permissions
+      summary: get permissions 
+      operationId: getPermissions
+      parameters:
+        - name: trustgroup_id
+          in: query
+          description: Associated trustgroup ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+      description: |
+        By passing in the appropriate options, you can get the list of permissions for the corresponding trust groups
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/PermissionTypes'
+        '400':
+          description: ID not found
+    put:
+      tags:
+        - Permissions
+      summary: Update trust group permission
+      operationId: updateTrustGroupPermissions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                trustgroup_id:
+                  type: string
+                  format: uuid
+                departments_id:
+                  type: string
+                  format: uuid
+                collaborators_id:
+                  type: string
+                  format: uuid
+              required:
+                - trustgroup_id
+                - department_id
+                - collaboration_id
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PermissionTypes'
+        '400':
+          description: ID not found
+        '500':
+          description: Internal Server Error
+  /Domains:
+    get:
+      tags:
+        - Domains
+      summary: get all domains 
+      operationId: getDomains
+      parameters:
+        - name: department_id
+          in: query
+          description: Associated Department ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: collaborations_id
+          in: query
+          description: Associated collaborator ID
+          required: true
+          schema:
+            type: string
+            format: uuid
+      description: |
+        By passing in the appropriate options, you can get the all the domains that are available in the department
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Domains'
+        '400':
+          description: ID not found
+    post:
+      tags:
+        - Domains
+      summary: Add a new domain
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                collaboration_id:
+                  type: string
+                  format: uuid
+                department_id:
+                  type: string
+                  format: uuid
+                trustgroup_id:
+                  type: string
+                  format: uuid
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Domains'
+                required:
+                - collaboration_id
+                - department_id
+                - trustgroup_id
+        '400':
+          description: Invalid request
+        '401':
+          description: Unauthorized
+    put:
+      tags:
+        - Domains
+      summary: Update a domain
+      operationId: updateDomain
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                trustgroup_id:
+                  type: string
+                  format: uuid
+                department_id:
+                  type: string
+                  format: uuid
+                collaboration_id:
+                  type: string
+                  format: uuid
+                domain_id:
+                  type: string
+                  format: uuid
+              required:
+                - trustgroup_id
+                - department_id
+                - domain_id
+                - collaboration_id
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Domains'
+        '400':
+          description: ID not found
+        '500':
+          description: Internal Server Error
+components:
+  schemas:
+    Collaborations:
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          $ref: '#/components/schemas/Collaboration'
+    Departments:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          $ref: '#/components/schemas/Department'
+    Trustgroups:
+       properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          $ref: '#/components/schemas/Trustgroup'
+    PermissionTypes:
+      properties:
+        edit:
+          type: boolean
+        comment:
+          type: boolean
+        invite:
+          type: boolean
+        transfer ownership:
+          type: boolean
+    Domains:
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+        relationship:
+          $ref: '#/components/schemas/Relationships'
+        email:
+          type: string
+        trustscore:
+          type: integer
+    Collaboration:
+      type: string
+      enum:
+        - box
+        - google suite
+        - docusign
+        - figma
+        - okta
+        - slack
+    Department:
+      type: string
+      enum:
+        - sales
+        - finance
+        - legal
+        - Investor Relations
+    Trustgroup:
+      type: string
+      enum:
+        - Do not trust
+        - Top 100
+        - Top 1000
+    Relationships:
+      type: string
+      enum:
+        - Vendor
+        - Customer
+        - Partner

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders BannerLabel snapshot correctly 1`] = `
+<div>
+  <h1
+    class="MuiTypography-root makeStyles-imageLabel-1 MuiTypography-h1 MuiTypography-alignCenter"
+  >
+    All Good
+  </h1>
+</div>
+`;

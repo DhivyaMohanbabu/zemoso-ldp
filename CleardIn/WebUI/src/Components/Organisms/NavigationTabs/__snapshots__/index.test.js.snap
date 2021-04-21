@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationTabs onClick tab 1`] = `
+<div
+  class="makeStyles-tabSpan-10 makeStyles-currentTab-11"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+  >
+    Top 1000
+  </p>
+</div>
+`;
+
+exports[`renders NavigationTabs snapshot correctly 1`] = `
+<div>
+  <div
+    class="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root makeStyles-tab-1 MuiGrid-item"
+    >
+      <div
+        class="makeStyles-tabSpan-3 makeStyles-currentTab-4"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Top 100
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-tab-1 MuiGrid-item"
+    >
+      <div
+        class="makeStyles-tabSpan-3 "
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Top 1000
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-tab-1 MuiGrid-item"
+    >
+      <div
+        class="makeStyles-tabSpan-3 "
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+        >
+          External partners
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-tab-1 MuiGrid-item"
+    >
+      <div
+        class="makeStyles-tabSpan-3 "
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+        >
+          Box communication base
+        </p>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-newTab-2 MuiGrid-item"
+    >
+      <div
+        class="makeStyles-root-5"
+      >
+        <div
+          class="makeStyles-Icon-6"
+        >
+          <span
+            aria-hidden="true"
+            class="material-icons MuiIcon-root"
+          >
+            +
+          </span>
+        </div>
+        <div
+          class="makeStyles-text-7"
+        >
+          <body1
+            class="MuiTypography-root MuiTypography-body1"
+            data-testid="text"
+          >
+            New Tab
+          </body1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

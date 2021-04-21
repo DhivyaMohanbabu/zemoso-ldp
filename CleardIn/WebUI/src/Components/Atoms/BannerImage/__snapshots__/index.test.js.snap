@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders BannerImage snapshot correctly 1`] = `
+<div>
+  <img
+    class="MuiCardMedia-root makeStyles-image-1 MuiCardMedia-media MuiCardMedia-img"
+    src="test-file-stub"
+    srcset="undefined 2x, undefined 3x"
+    title="Sample Test"
+  />
+</div>
+`;

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Nav Icon snapshot correctly 1`] = `
+<div>
+  <svg
+    aria-hidden="true"
+    class="MuiSvgIcon-root MuiSvgIcon-root makeStyles-notSelected-4 MuiSvgIcon-colorSecondary MuiSvgIcon-fontSizeLarge"
+    focusable="false"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 10h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`renders Nav Icon snapshot correctly when selected true 1`] = `
+<div>
+  <div
+    class="MuiGrid-root makeStyles-root-1"
+  >
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeLarge"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zM7 10h2v7H7zm4-3h2v10h-2zm4 6h2v4h-2z"
+      />
+    </svg>
+  </div>
+</div>
+`;
